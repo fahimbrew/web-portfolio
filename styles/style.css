@@ -6,6 +6,19 @@
         "wdth" 100;
 }
 
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
+/* header style */
+.header {
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    /* background-size: 136px; */
+    background-position: top left, right bottom;
+}
+
 /* shared styles */
 .colored-text {
     color: rgb(253, 110, 10);
@@ -24,6 +37,7 @@
     background: rgb(253, 110, 10);
     padding: 18px 35px 19px 34px;
     cursor: pointer;
+    border: none;
 }
 
 
@@ -61,4 +75,45 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 38px 30px 200px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    text-align: left;
+    /* margin-bottom: 10px; */
+}
+
+.banner-title {
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+    text-align: left;
+    /* margin-bottom: 0; */
+}
+
+.banner-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    /* background-image: url("/images/header_bg.png"); */
+    /* transform: rotate(30deg); */
+    width: 584px;
 }
